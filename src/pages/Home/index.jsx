@@ -8,8 +8,8 @@ function Home() {
         <React.Fragment>
 <Navbar />
 </React.Fragment>
-    )
-}
+    );
+};
 
 
 export default Home;
