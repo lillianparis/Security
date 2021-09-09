@@ -1,0 +1,24 @@
+{
+  "name": "security",
+  "version": "1.0.0",
+  "description": "Helmet.js",
+  "main": "helmet.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react-scripts": "^4.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lillianparis/security.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lillianparis/security/issues"
+  },
+  "homepage": "https://github.com/lillianparis/security#readme"
+}
