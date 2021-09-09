@@ -9,13 +9,9 @@ import Home from "./pages/Home"
 function App() {
   return (
 
- <Router>
-   <Navbar/>
-   <switch>
-<Route exact path="/" component={Home}/>
-</switch>
- </Router>
-
+<div>
+  <h1>hello</h1>
+</div>
   )}
 
 export default App;
