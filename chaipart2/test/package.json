@@ -1,0 +1,27 @@
+{
+  "name": "security",
+  "version": "1.0.0",
+  "description": "Chai Part 2",
+  "main": "helmet.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "react-scripts": "^4.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lillianparis/security.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lillianparis/security/issues"
+  },
+  "homepage": "https://github.com/lillianparis/security#readme"
+}
