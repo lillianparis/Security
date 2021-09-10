@@ -17,7 +17,7 @@ app.use(helmet.hidePoweredBy());
 // Your page can be put into an frame> or <iframe> without your consent.
 // This results in a clickjacking attack. 
 // Clickjacking is the tecnique of tricking a user into interacting with a page different from what the user thinks it is.
-app.use(helmet.frameguard({action: 'deny'}))
+app.use(helmet.frameguard({ action: 'deny' }))
 
 // Cross Site scripting is another way of attacking web pages
 // Scripts are placed into vulnerable pages, for the purpose of stealing sensitive data like session cookies.

@@ -12,4 +12,4 @@ Car.prototype.checkGarage= function(){
 
 let car = new Car();
 
-module.exports = car;
+module.exports = Car;

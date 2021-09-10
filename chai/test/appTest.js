@@ -1,8 +1,12 @@
-const assert = require('chai').assert;
-const app = require('../app');
+// Assert helps to determine the staus of the test, if it passes or fails
+const assert = require('assert');
+const sayHello = require('../app');
 
-describe('App', function() {
-    it('app should return hello', function(){
-        assert.equal(app(), 'hello');
+// The 'describe' function holds the collection of tests. 
+describe("sayHello", function () {
+    // 'it' is a function that tests itself
+    it("Should return 'Hello Timmy'", function () {
+        assert.equal("Hello Timmy", sayHello("Timmy"));
     });
 });
+
