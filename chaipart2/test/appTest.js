@@ -1,14 +1,18 @@
-const assert = require('chai').assert;
-const sayHello = require('../app').sayHello;
+const assert = require('assert');
+const Car = require('../app');
 
-describe('App', function(){
-    it('app should return hello', function() {
-        assert.equal(sayHello(), 'hello');
+describe('Car test', function(){
+   
+    let car = Car;
+    
+    it('check if the car has valid name.', function(){
+        assert.isString(car.checkGarage(), 'string');
+    })
+    
+    it('check for a car at the dealership.', function (){
+        let type= car.checkGarage()
+        assert.oneOf(type, car.types)
+
     });
-
-
-it('sayHello should return type string', function() {
-    let result = sayHello();
-    assert.typeOf(result, 'string');
-});
+    
 });
