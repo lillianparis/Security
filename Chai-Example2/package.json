@@ -1,0 +1,17 @@
+{
+  "name": "chai-example2",
+  "version": "1.0.0",
+  "description": "Chai Exampl 2",
+  "main": "app.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "react-scripts": "^4.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.0"
+  },
+  "scripts": {
+    "test": "mocha || true"
+  }
+}
